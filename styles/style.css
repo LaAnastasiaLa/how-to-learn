@@ -18,7 +18,8 @@
 
   background-color: #f2f2f2;
   border: 1px solid red;
-
+  display: flex;
+  align-items: center;
 }
 
 .logo{
@@ -37,14 +38,30 @@
   left: 64px;
 }
 
-.header_title{
+.header_title{ /*почистить*/
+  position:absolute;
+  line-height: 96px;  
+  border: 1px solid red;
   width: 730px;
-  height: 96px;
   font-size: 102px;
   font-style: bold;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   left: 64px;
+
+}
+
+.header_subtitle{
+  position: absolute;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
+  position:absolute;
+  bottom: 30px;
+  left: 64px;
+  border: 1px solid red;
+  justify-content: space-between;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
