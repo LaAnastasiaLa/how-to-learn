@@ -15,7 +15,7 @@
   max-height: 756px;
   
   /* выше установили ограничения для секции */
-
+  position: relative;
   background-color: #f2f2f2;
   border: 1px solid red;
   display: flex;
@@ -48,7 +48,7 @@
   display: flex;
   justify-content: space-between;
   left: 64px;
-
+  z-index: 2;
 }
 
 .header_subtitle{
@@ -62,12 +62,28 @@
   left: 64px;
   border: 1px solid red;
   justify-content: space-between;
+  z-index: 2;
+}
+
+.header_main-illustration{
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  border: 1px solid red;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color:  #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  z-index: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
