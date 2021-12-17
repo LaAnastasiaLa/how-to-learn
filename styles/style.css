@@ -37,7 +37,7 @@
 
 .header__title{ 
   position:absolute;
-  line-height: 96px;  
+  line-height: 96px;
   width: 730px;
   font-size: 102px;
   font-weight: bold;
@@ -51,7 +51,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  position:absolute;
   bottom: 30px;
   left: 64px;
   justify-content: space-between;
@@ -210,7 +209,7 @@
   color: #2f80ed;
   position: absolute;
   top: 50%;
-  right: 48px
+  right: 48px;
  }
 
  .kaufman{
