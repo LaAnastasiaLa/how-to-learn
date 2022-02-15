@@ -4,6 +4,8 @@
     align-items: center;
     background-color: #1f1f1f;
     padding-top: 60px;
-    padding-bottom: 0px;
-    max-height: 350px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    min-height: 350px;
+    margin: 0;
   }
